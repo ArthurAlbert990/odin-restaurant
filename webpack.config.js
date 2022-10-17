@@ -6,6 +6,7 @@ module.exports = {
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
+    clean: true,
   },
   resolve: {
     modules: [path.resolve(__dirname, 'node_modules'), 'node_modules']
