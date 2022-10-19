@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap');
 
-
-
 *{
     box-sizing: border-box;
     padding: 0;
@@ -96,6 +94,7 @@ body{
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
 }
+
 .menu-card:hover{
     transform: scale(1.10);
     transition: all 0.15s;
@@ -114,6 +113,9 @@ body{
 .card-title{
     color: goldenrod;
     padding-bottom: 1rem;
+}
+.drinks{
+    color: greenyellow;
 }
 
 .find-us-header{
