@@ -31,14 +31,14 @@ const menuDrinks= {
                 <div class="menu-card">
                     <div class="card-img1 drinks"></div>
                     <div class="card-content">
-                        <p class="card-title drinks">LOREM IPSUM</p>
+                        <p class="card-title drinks-title">LOREM IPSUM</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui.</p>
                     </div>
                 </div>
                 <div class="menu-card">
                     <div class="card-img2 drinks"></div>
                     <div class="card-content">
-                        <p class="card-title drinks">LOREM IPSUM</p>
+                        <p class="card-title drinks-title">LOREM IPSUM</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui.</p>
                     </div>
                 </div>
@@ -53,8 +53,9 @@ const contentElement = document.querySelector('.content');
  * Dynamically inserts the new elements
  */
 function generatePage(){
-    console.log('generatePage')
-    contentElement.innerHMTL=''; // reset content
+    console.log('generatePage');
+    contentElement.innerHTML=''; // reset content
+    console.log('page clear');
     for(let key in menuDrinks){
         element = document.createElement(menuDrinks[key]['type']);
         element.classList.add(menuDrinks[key]['class']);

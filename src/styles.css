@@ -115,6 +115,13 @@ body{
     padding-bottom: 1rem;
 }
 .drinks{
+    background-image: url('./assets/drinks-card-1.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.drinks-title{
     color: greenyellow;
 }
 

@@ -8,6 +8,9 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     clean: true,
   },
+  watchOptions: {
+    ignored: ['**/dist/index.html'],
+  },
   resolve: {
     modules: [path.resolve(__dirname, 'node_modules'), 'node_modules']
   },

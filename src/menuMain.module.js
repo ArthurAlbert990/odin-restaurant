@@ -128,7 +128,7 @@ const contentElement = document.querySelector('.content');
  */
 function generatePage(){
     console.log('generatePage')
-    contentElement.innerHMTL=''; // reset content
+    contentElement.innerHTML=''; // reset content
     for(let key in menuMain){
         element = document.createElement(menuMain[key]['type']);
         element.classList.add(menuMain[key]['class']);
